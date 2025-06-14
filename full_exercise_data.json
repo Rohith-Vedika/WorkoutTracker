@@ -1,0 +1,547 @@
+[
+  {
+    "name": "Aerobics",
+    "type": "Aerobic exercise",
+    "muscles": {}
+  },
+  {
+    "name": "Circuit training",
+    "type": "Aerobic exercise",
+    "muscles": {}
+  },
+  {
+    "name": "Cycling",
+    "type": "Aerobic exercise",
+    "muscles": {
+      "Quadriceps": 50,
+      "Hamstrings": 20,
+      "Calves": 30
+    }
+  },
+  {
+    "name": "Hiking",
+    "type": "Aerobic exercise",
+    "muscles": {
+      "Quadriceps": 40,
+      "Hamstrings": 30,
+      "Calves": 30
+    }
+  },
+  {
+    "name": "Power walking",
+    "type": "Aerobic exercise",
+    "muscles": {
+      "Calves": 30,
+      "Quadriceps": 40,
+      "Hamstrings": 30
+    }
+  },
+  {
+    "name": "Running",
+    "type": "Aerobic exercise",
+    "muscles": {
+      "Quadriceps": 35,
+      "Hamstrings": 30,
+      "Calves": 35
+    }
+  },
+  {
+    "name": "Skipping rope",
+    "type": "Aerobic exercise",
+    "muscles": {
+      "Calves": 50,
+      "Quadriceps": 30,
+      "Forearms": 20
+    }
+  },
+  {
+    "name": "Swimming",
+    "type": "Aerobic exercise",
+    "muscles": {
+      "Lats and trapezius": 40,
+      "Shoulders": 30,
+      "Legs": 30
+    }
+  },
+  {
+    "name": "Walking",
+    "type": "Aerobic exercise",
+    "muscles": {
+      "Calves": 35,
+      "Quadriceps": 35,
+      "Hamstrings": 30
+    }
+  },
+  {
+    "name": "Bodybuilding",
+    "type": "Anaerobic exercise",
+    "muscles": {}
+  },
+  {
+    "name": "Eccentric training",
+    "type": "Anaerobic exercise",
+    "muscles": {}
+  },
+  {
+    "name": "Functional training",
+    "type": "Anaerobic exercise",
+    "muscles": {}
+  },
+  {
+    "name": "Sprinting",
+    "type": "Anaerobic exercise",
+    "muscles": {
+      "Quadriceps": 40,
+      "Hamstrings": 40,
+      "Calves": 20
+    }
+  },
+  {
+    "name": "Weight training",
+    "type": "Anaerobic exercise",
+    "muscles": {}
+  },
+  {
+    "name": "Strength training",
+    "type": "Anaerobic exercise",
+    "muscles": {}
+  },
+  {
+    "name": "Crunch",
+    "type": "Strength training",
+    "muscles": {
+      "Abdomen and obliques": 100
+    }
+  },
+  {
+    "name": "Leg raise",
+    "type": "Strength training",
+    "muscles": {
+      "Abdomen and obliques": 70,
+      "Quadriceps": 30
+    }
+  },
+  {
+    "name": "Russian twist",
+    "type": "Strength training",
+    "muscles": {
+      "Abdomen and obliques": 100
+    }
+  },
+  {
+    "name": "Sit-up",
+    "type": "Strength training",
+    "muscles": {
+      "Abdomen and obliques": 100
+    }
+  },
+  {
+    "name": "Biceps curl",
+    "type": "Strength training",
+    "muscles": {
+      "Biceps": 100
+    }
+  },
+  {
+    "name": "Pull ups with a supinated grip",
+    "type": "Strength training",
+    "muscles": {
+      "Biceps": 50,
+      "Lats and trapezius": 50
+    }
+  },
+  {
+    "name": "Calf raise",
+    "type": "Strength training",
+    "muscles": {
+      "Calves": 100
+    }
+  },
+  {
+    "name": "Front raise",
+    "type": "Strength training",
+    "muscles": {
+      "Deltoids": 100
+    }
+  },
+  {
+    "name": "Head stand into Handstand push-up",
+    "type": "Strength training",
+    "muscles": {
+      "Deltoids": 50,
+      "Triceps": 30,
+      "Chest": 20
+    }
+  },
+  {
+    "name": "Lateral raise",
+    "type": "Strength training",
+    "muscles": {
+      "Deltoids": 100
+    }
+  },
+  {
+    "name": "Military press",
+    "type": "Strength training",
+    "muscles": {
+      "Deltoids": 60,
+      "Triceps": 40
+    }
+  },
+  {
+    "name": "Rear delt raise",
+    "type": "Strength training",
+    "muscles": {
+      "Deltoids": 100
+    }
+  },
+  {
+    "name": "Shoulder press",
+    "type": "Strength training",
+    "muscles": {
+      "Deltoids": 60,
+      "Triceps": 40
+    }
+  },
+  {
+    "name": "Upright row",
+    "type": "Strength training",
+    "muscles": {
+      "Deltoids": 70,
+      "Trapezius": 30
+    }
+  },
+  {
+    "name": "Wrist curl",
+    "type": "Strength training",
+    "muscles": {
+      "Forearms": 100
+    }
+  },
+  {
+    "name": "Wrist extension",
+    "type": "Strength training",
+    "muscles": {
+      "Forearms": 100
+    }
+  },
+  {
+    "name": "Deadlift",
+    "type": "Strength training",
+    "muscles": {
+      "Hamstrings": 30,
+      "Lower back": 40,
+      "Glutes": 30
+    }
+  },
+  {
+    "name": "Frog jumping",
+    "type": "Strength training",
+    "muscles": {
+      "Quadriceps": 50,
+      "Hamstrings": 30,
+      "Calves": 20
+    }
+  },
+  {
+    "name": "Good-morning",
+    "type": "Strength training",
+    "muscles": {
+      "Lower back": 60,
+      "Hamstrings": 40
+    }
+  },
+  {
+    "name": "Leg curl",
+    "type": "Strength training",
+    "muscles": {
+      "Hamstrings": 100
+    }
+  },
+  {
+    "name": "Squat",
+    "type": "Strength training",
+    "muscles": {
+      "Quadriceps": 50,
+      "Glutes": 30,
+      "Hamstrings": 20
+    }
+  },
+  {
+    "name": "Bent-over row",
+    "type": "Strength training",
+    "muscles": {
+      "Lats and trapezius": 100
+    }
+  },
+  {
+    "name": "Chin-up",
+    "type": "Strength training",
+    "muscles": {
+      "Lats and trapezius": 60,
+      "Biceps": 40
+    }
+  },
+  {
+    "name": "Pulldown",
+    "type": "Strength training",
+    "muscles": {
+      "Lats and trapezius": 80,
+      "Biceps": 20
+    }
+  },
+  {
+    "name": "Pullup",
+    "type": "Strength training",
+    "muscles": {
+      "Lats and trapezius": 60,
+      "Biceps": 40
+    }
+  },
+  {
+    "name": "Seated row",
+    "type": "Strength training",
+    "muscles": {
+      "Lats and trapezius": 100
+    }
+  },
+  {
+    "name": "Shoulder shrug",
+    "type": "Strength training",
+    "muscles": {
+      "Trapezius": 100
+    }
+  },
+  {
+    "name": "Supine row",
+    "type": "Strength training",
+    "muscles": {
+      "Lats and trapezius": 100
+    }
+  },
+  {
+    "name": "Hyperextension",
+    "type": "Strength training",
+    "muscles": {
+      "Lower back": 100
+    }
+  },
+  {
+    "name": "Bench press",
+    "type": "Strength training",
+    "muscles": {
+      "Pectorals": 70,
+      "Triceps": 30
+    }
+  },
+  {
+    "name": "Chest fly",
+    "type": "Strength training",
+    "muscles": {
+      "Pectorals": 100
+    }
+  },
+  {
+    "name": "Dips",
+    "type": "Strength training",
+    "muscles": {
+      "Triceps": 60,
+      "Pectorals": 40
+    }
+  },
+  {
+    "name": "Machine fly",
+    "type": "Strength training",
+    "muscles": {
+      "Pectorals": 100
+    }
+  },
+  {
+    "name": "Push-up",
+    "type": "Strength training",
+    "muscles": {
+      "Pectorals": 60,
+      "Triceps": 40
+    }
+  },
+  {
+    "name": "Vaginal weightlifting",
+    "type": "Strength training",
+    "muscles": {
+      "Pelvis": 100
+    }
+  },
+  {
+    "name": "Leg extension",
+    "type": "Strength training",
+    "muscles": {
+      "Quadriceps": 100
+    }
+  },
+  {
+    "name": "Leg press",
+    "type": "Strength training",
+    "muscles": {
+      "Quadriceps": 60,
+      "Hamstrings": 20,
+      "Glutes": 20
+    }
+  },
+  {
+    "name": "Lunge",
+    "type": "Strength training",
+    "muscles": {
+      "Quadriceps": 40,
+      "Hamstrings": 30,
+      "Glutes": 30
+    }
+  },
+  {
+    "name": "Close-grip bench press",
+    "type": "Strength training",
+    "muscles": {
+      "Triceps": 80,
+      "Pectorals": 20
+    }
+  },
+  {
+    "name": "Pushdown",
+    "type": "Strength training",
+    "muscles": {
+      "Triceps": 100
+    }
+  },
+  {
+    "name": "Triceps extension",
+    "type": "Strength training",
+    "muscles": {
+      "Triceps": 100
+    }
+  },
+  {
+    "name": "Burpees",
+    "type": "Calisthenics",
+    "muscles": {
+      "Full body": 100
+    }
+  },
+  {
+    "name": "Calf-raises",
+    "type": "Calisthenics",
+    "muscles": {
+      "Calves": 100
+    }
+  },
+  {
+    "name": "Crunches",
+    "type": "Calisthenics",
+    "muscles": {
+      "Abdomen and obliques": 100
+    }
+  },
+  {
+    "name": "Hyperextensions",
+    "type": "Calisthenics",
+    "muscles": {
+      "Lower back": 100
+    }
+  },
+  {
+    "name": "Jumping jacks",
+    "type": "Calisthenics",
+    "muscles": {
+      "Full body": 100
+    }
+  },
+  {
+    "name": "Plank",
+    "type": "Calisthenics",
+    "muscles": {
+      "Abdomen and obliques": 100
+    }
+  },
+  {
+    "name": "Squat jumps",
+    "type": "Calisthenics",
+    "muscles": {
+      "Quadriceps": 50,
+      "Glutes": 30,
+      "Calves": 20
+    }
+  },
+  {
+    "name": "Bend and reach",
+    "type": "Stretching",
+    "muscles": {
+      "Back": 50,
+      "Legs": 50
+    }
+  },
+  {
+    "name": "High jump",
+    "type": "Stretching",
+    "muscles": {
+      "Full body": 100
+    }
+  },
+  {
+    "name": "Rower",
+    "type": "Stretching",
+    "muscles": {
+      "Back": 40,
+      "Upper legs": 30,
+      "Abdomen": 30
+    }
+  },
+  {
+    "name": "Squat bend",
+    "type": "Stretching",
+    "muscles": {
+      "Full body": 100
+    }
+  },
+  {
+    "name": "Ballistic stretching",
+    "type": "Stretching",
+    "muscles": {}
+  },
+  {
+    "name": "Dynamic stretching",
+    "type": "Stretching",
+    "muscles": {}
+  },
+  {
+    "name": "PNF stretching",
+    "type": "Stretching",
+    "muscles": {}
+  },
+  {
+    "name": "Static stretching",
+    "type": "Stretching",
+    "muscles": {}
+  },
+  {
+    "name": "Passive stretching",
+    "type": "Stretching",
+    "muscles": {}
+  },
+  {
+    "name": "Pilates",
+    "type": "Other",
+    "muscles": {
+      "Core": 100
+    }
+  },
+  {
+    "name": "Yoga",
+    "type": "Other",
+    "muscles": {
+      "Full body": 100
+    }
+  },
+  {
+    "name": "Physical therapy",
+    "type": "Other",
+    "muscles": {}
+  }
+]
