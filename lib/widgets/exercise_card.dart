@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../screens/progress_screen.dart';
 import 'package:hive/hive.dart';
-import '../models/workout_entry.dart';
+import '../models/workout_set.dart';
 
 class ExerciseCard extends StatefulWidget {
   final String exerciseName;
@@ -123,11 +123,11 @@ class _ExerciseCardState extends State<ExerciseCard> {
                     weights = List<double>.from(tempWeights.take(tempSets));
                   });
 
-                  final box = Hive.box<WorkoutEntry>('workoutBox');
+                  final box = Hive.box<WorkoutSet>('workoutBox');
                   final now = DateTime.now();
 
                   for (int i = 0; i < sets; i++) {
-                    final entry = WorkoutEntry(
+                    final entry = WorkoutSet(
                       exerciseName: widget.exerciseName,
                       setNumber: i + 1,
                       reps: reps[i],

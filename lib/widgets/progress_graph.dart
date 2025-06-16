@@ -1,7 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import '../models/workout_entry.dart';
+import '../models/workout_set.dart';
 
 class ProgressGraph extends StatefulWidget {
   final String exerciseName;
@@ -18,7 +18,7 @@ class ProgressGraph extends StatefulWidget {
 }
 
 class _ProgressGraphState extends State<ProgressGraph> {
-  List<WorkoutEntry> filteredEntries = [];
+  List<WorkoutSet> filteredEntries = [];
 
   @override
   void initState() {
@@ -27,7 +27,7 @@ class _ProgressGraphState extends State<ProgressGraph> {
   }
 
   void loadData() {
-    final box = Hive.box<WorkoutEntry>('workoutBox');
+    final box = Hive.box<WorkoutSet>('workoutBox');
     final allEntries = box.values.toList();
 
     setState(() {

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'push_day_screen.dart';
-import 'pull_day_screen.dart';
-import 'leg_day_screen.dart';
+import 'your_workouts_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -10,40 +9,35 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Workout Tracker')),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const PushDayScreen()),
-                );
-              },
-              child: const Text('Push Day'),
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const PullDayScreen()),
-                );
-              },
-              child: const Text('Pull Day'),
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const LegDayScreen()),
-                );
-              },
-              child: const Text('Leg Day'),
-            ),
-          ],
+      body: GridView.count(
+        crossAxisCount: 2,
+        children: [
+          _buildCategoryCard(context, 'Push', Colors.blue, () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (ctx) => const PushDayScreen()),
+          )),
+          _buildCategoryCard(context, 'Pull', Colors.red, () {}),
+          _buildCategoryCard(context, 'Legs', Colors.green, () {}),
+          _buildCategoryCard(context, 'Your Workouts', Colors.purple, () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (ctx) => const YourWorkoutsScreen()),
+          )),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildCategoryCard(BuildContext context, String title, Color color, VoidCallback onTap) {
+    return Card(
+      color: color,
+      margin: const EdgeInsets.all(8),
+      child: InkWell(
+        onTap: onTap,
+        child: Center(
+          child: Text(
+            title,
+            style: const TextStyle(color: Colors.white, fontSize: 20),
+          ),
         ),
       ),
     );
